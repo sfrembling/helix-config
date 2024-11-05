@@ -3,6 +3,9 @@ theme = "horizon-dark"
 [editor]
 line-number = "relative"
 mouse = false
+rulers = [120, 150]
+true-color = true
+cursorline = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -14,3 +17,7 @@ hidden = false
 
 [editor.lsp]
 display-inlay-hints = true
+display-messages = true
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "file-name"]
